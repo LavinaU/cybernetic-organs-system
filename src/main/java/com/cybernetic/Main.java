@@ -23,9 +23,9 @@ public class Main {
         double[][] weightedMatrix = inventory.calculateWeightedCompatibility(weights);
         inventory.displayWeightedMatrix(weightedMatrix);
 
-        System.out.println("\nIN THE FOLLOWING OUTPUT:");
-        System.out.println("- Rows represent organs (O1, O2, etc.)");
-        System.out.println("- Columns represent patients (P1, P2, etc.)");
+        System.out.println("\nIn this output:");
+        System.out.println("- Rows represent organs (O1, O2, ...)");
+        System.out.println("- Columns represent patients (P1, P2, ...)");
         System.out.println("- In the initial matrix, every 3 columns represent blood type, weight, and HLA compatibility for each patient");
         System.out.println("- In the final matrix, each cell represents the overall weighted compatibility score between an organ and a patient");
 
